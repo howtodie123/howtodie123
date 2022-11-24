@@ -6,4 +6,4 @@
 - 💬 Ask me about your stupid
 - 📫 How to reach me: no way
 - ⚡ Fun fact: this file doesn't exis
-** Thuan NGu
+** Thuan NGu **

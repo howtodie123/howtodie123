@@ -6,4 +6,10 @@
 - 💬 Ask me about your stupid
 - 📫 How to reach me: no way
 - ⚡ Fun fact: this file doesn't exis
+- 
 ** Thuan NGu **
+
+| ngu | THaun | lam |
+|:... | :.... | :.. |
+|a|b|c|
+|x|y|z|

@@ -10,6 +10,13 @@
 ** Thuan NGu **
 
 | ngu | THaun | lam |
-|:... | :.... | :.. |
+|:--- | :---- | :.. |
 |a|b|c|
 |x|y|z|
+
+| Letter | Next Letter | Previous Letter | 
+| :----- | :---------- | :-------------- | 
+| B      | C           | A               | 
+| E      | F           | D               | 
+| H      | I           | G               | 
+| T      | U           | S               |

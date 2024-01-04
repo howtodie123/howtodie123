@@ -199,6 +199,7 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
 - **h** được tạo ra bằng cách sử dụng một khoá bí mật được gọi là một mã xác thực thông điệp (MAC – Message Authentication Code).
 - **h** cũng có thể thu được bằng cách sử dụng giải thuật checksum kết hợp một hàm băm để tạo ra một mã xác thực tin nhắn keyed-hash (HMAC - Keyed-Hash Message Authentication Code)
 #### Điều khiển lỗi khi gởi thông điệp: 
+![Text thay thế](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image/1.PNG)
 - a) Kiểm soát lỗi nội bộ
 - b) Kiểm soát lỗi bên ngoài
 - Giải thích kí hiệu:

@@ -174,6 +174,30 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
 ### D. Quản lý khoá
 
 ## V. Chứng thực dữ liệu
+#### Vai trò:
+- Chứng thực (authentication) nhằm: 
+  + Xác nhận nguồn gốc dữ liệu 
+  + Thuyết phục người dùng là dữ liệu này chưa bị sửa đổi hay giả mạo
+- Chứng thực là cơ chế quan trọng để duy trì tính toàn vẹn và không thể từ chối của dữ liệu.
+#### Các phương pháp:
+-	Mã hóa thông điệp: sử dụng khóa bí mật và khóa công khai để mã hóa thông điệp
+-	Mã chứng thực thông điệp (MAC – Message Authen Code): một hàm và một khóa bí mật tạo ra 1 giá trị có chiều dài cố định sử dụng để chứng thực
+-	Hàm băm (Hash function): Ánh xạ một thông điệp vào một giá trị băm có chiều dài cố định để chứng thực.
+#### Chứng thực thông qua nhận dạng:
+- Sử dụng các yếu tố nhận dạng như Password,PIN ,Smart card,Biometric: Vân tay, võng mạc,Chữ kí,...
+#### Ví dụ về chứng thực:
+- Giả sử Alice và Bob chia sẻ một khoá bí mật chung **K**. Alice muốn gởi một chuỗi dữ liệu **M** cho Bob và thuyết phục Bob rằng **M** thực sự đến từ Alice và không bị sửa trong quá trình truyền. Điều này có thể thực hiện như sau:
+- Alice gởi **M** cùng với **C** cho Bob, với **C=EK(M) và E** là một giải thuật mã hoá thông thường đã quy ước trước giữa Alice và Bob.
+- Do chỉ có Alice và Bob biết **K**, Bob có thể sử dụng **K** để giải mã **C** thu được **M’**. 
+- Bob sẽ được thuyết phục rằng **M** thực sự đến từ Alice và **M** không bị thay đổi trong quá trình truyền nếu và chỉ nếu **M’=M**.
+- Tuy nhiên, phương pháp này cho phép Alice có thể từ chối Charlie rằng **M** xuất phát từ Alice vì **M** có khả năng xuất phát từ Bob do cùng chia sẻ khoá bí mật **K**. 
+ → Nhược điểm này được giải quyết bằng mật mã hoá khoá công khai.
+- Nếu chuỗi **M** ngắn, có thể mã hóa **M** trực tiếp để xác nhận nó. 
+- Nếu chuỗi **M** dài, chỉ cần tính toán một h ngắn đại diện cho **M** và mã hóa **h**.
+#### Vậy h được tạo ra như thế nào?
+- **h** được tạo ra mà không sử dụng khoá bí mật được gọi là digital digest hoặc digital fingerprint (dấu vân tay kỹ thuật số), có thể thu được từ một hàm băm (Hash Function).
+- **h** được tạo ra bằng cách sử dụng một khoá bí mật được gọi là một mã xác thực thông điệp (MAC – Message Authentication Code).
+- **h** cũng có thể thu được bằng cách sử dụng giải thuật checksum kết hợp một hàm băm để tạo ra một mã xác thực tin nhắn keyed-hash (HMAC - Keyed-Hash Message Authentication Code)
 
 ### A. Mã chứng thực thông điệp
 

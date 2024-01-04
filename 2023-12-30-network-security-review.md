@@ -227,8 +227,21 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
       + Người gửi có thể phủ nhận thông điệp
 - b) Mã hoá khoá bất đối xứng (khoá công khai)
    + A → B: E(PU<sub>b</sub>, M)
-   + 
-
+   + Bảo mật:
+      + Chỉ B có PR<sub>b</sub> giải mã
+   + Không cung cấp chứng thực
+      + Bất cứ ai cũng có thể sử dụng PU<sub>b</sub> để mã hoá thông điệp và tự xưng là A.
+- c) Mã hóa khóa công khai: chứng thực và chữ ký số:
+   + A → B: E(PR<sub>a</sub>, M)
+   + Cung cấp chứng thực và chữ ký số
+      + Chỉ A có PRb để mã hoá
+      + Không bị thay đổi trong quá trình truyền
+      + Yêu cầu một số định dạng và dự phòng
+      + Bất kỳ ai cũng có thể sử dụng PUa để xác minh chữ ký số
+- d. Mã hoá khoá công khai: bảo mật, chứng thực, và chữ ký số
+   +  A → B: E(PUb, E(PRa, M))
+   +  Cung cấp bảo mật nhờ PUb.
+   +  Cung cấp chứng thực và chữ ký số nhờ PRa.
 ### A. Mã chứng thực thông điệp
 
 ### B. Hàm băm

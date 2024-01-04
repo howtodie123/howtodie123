@@ -198,6 +198,36 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
 - **h** được tạo ra mà không sử dụng khoá bí mật được gọi là digital digest hoặc digital fingerprint (dấu vân tay kỹ thuật số), có thể thu được từ một hàm băm (Hash Function).
 - **h** được tạo ra bằng cách sử dụng một khoá bí mật được gọi là một mã xác thực thông điệp (MAC – Message Authentication Code).
 - **h** cũng có thể thu được bằng cách sử dụng giải thuật checksum kết hợp một hàm băm để tạo ra một mã xác thực tin nhắn keyed-hash (HMAC - Keyed-Hash Message Authentication Code)
+#### Điều khiển lỗi khi gởi thông điệp: 
+- a) Kiểm soát lỗi nội bộ
+- b) Kiểm soát lỗi bên ngoài
+- Giải thích kí hiệu:
+  + M : Message, là thông điệp
+  + E : Encrypt, là hàm mã hóa
+  + D : Decrypt, là hàm giải mã
+  + K : Khóa 
+  + F(M) : là hàm băm của dữ liệu M đầu vào 
+  + || : Phép nối, dùng để nối 2 chuỗi kí tự, chuỗi bên dưới dùng để kiểm tra sau khi bên kia giải mã M
+
+#### Các công dụng cơ bản của mã hóa:
+- Giải thích kí hiệu
+   + PU : public key , khóa công khai
+   + PR : Private key, khóa bí mật
+   + A : bên gửi
+   + B : bên nhận
+   + Các kí hiệu còn lại(xem lại ở trên)
+- a) Mã hoá khoá đối xứng (khoá bí mật):
+   + Bảo mật: chỉ A và B chia sẻ K
+   + Chứng Thực:
+      + Có thể đến chỉ từ A
+      + Không thay đổi trong quá trình truyền
+      + Yêu cầu một số định dạng và dự phòng
+   + Không cung cấp chữ ký:
+      + Người nhận có thể giả mạo thông điệp
+      + Người gửi có thể phủ nhận thông điệp
+- b) Mã hoá khoá bất đối xứng (khoá công khai)
+   + A → B: E(PU<sub>b</sub>, M)
+   + 
 
 ### A. Mã chứng thực thông điệp
 

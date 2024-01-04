@@ -23,4 +23,4 @@
 
 
 X<sub>2</sub>
-X^2^
+X<sup>2</sup>

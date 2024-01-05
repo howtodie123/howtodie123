@@ -312,7 +312,9 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
     + Chứng chỉ chéo
 
 - **Bài tập nho nhỏ:**
+
 ![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture5.png)
+
     + Hãy tìm đường đi từ A đến B và ngược lại
     + User A: X<< W >> W << V >> V << Y >> << Z >> Z << B >>
     + User B: Z << Y >> Y << V >> V << W >> W << X >> X << A >>
@@ -458,7 +460,7 @@ Mục này khá dài nên mình sẽ tóm tắt các ý chính có khả năng r
      + Nếu đúng, Bob tin là M đến từ Alice
 
      + Giả sử Alice muốn đảm bảo rằng M giữ được tính bí mật trong suốt quá trình truyền và cô ấy biết khoá công khai của Bob (K<sup>u</sup><sub>B</sub>), cô ấy sẽ gửi cho Bob chuỗi sau: 
-![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture1.png10)
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture10.png)
 
      + Với K<sub>A</sub> là khóa bí mật của Alice
      + Sau khi nhận được chuỗi từ Alice ,Bob sử dụng khóa riêng tư của mình để giải mã:

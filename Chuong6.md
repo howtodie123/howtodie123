@@ -208,7 +208,7 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
 ![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture1.png)
 
 #### Mô hình đóng gói và mã hóa dữ liệu tại các lớp mạng:
-link 2
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture2.png)
 
 - **Mã hóa tại lớp ứng dụng:**
     + Bảo mật end-to-end
@@ -288,7 +288,7 @@ link 2
         + Có thể trao đổi dữ liệu giữa người dùng và website được mã hóa từ 40-256bits
 
 - **Topology:**
-Link3
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture3.png)
 
 #### X.509
 - **Tổng quan:**
@@ -300,7 +300,7 @@ Link3
         + Repository: có trách nhiệm lưu trữ, quản lý chứng chỉ và danh sách các chứng chỉ bị thu hồi bởi CA
 
 - **Kiến trúc**
-Link 4
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture4.png)
 
 - **Các giao dịch giữa người dùng, RA, CA và kho:**
     + Đăng kí ( với CA hoặc RA)
@@ -312,7 +312,7 @@ Link 4
     + Chứng chỉ chéo
 
 - **Bài tập nho nhỏ:**
-Link 5
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture5.png)
     + Hãy tìm đường đi từ A đến B và ngược lại
     + User A: X<< W >> W << V >> V << Y >> << Z >> Z << B >>
     + User B: Z << Y >> Y << V >> V << W >> W << X >> X << A >>
@@ -420,11 +420,11 @@ Mục này khá dài nên mình sẽ tóm tắt các ý chính có khả năng r
 - **Các giao thức cảnh báo** (alert protocol) là một giao thức quản lý, nó thông báo cho các bên tham gia truyền thông khi có vấn đề xảy ra.
 
 #### Cấu trúc SSL
-link17
-link18
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture17.png)
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture18.png)
 
 #### Giao thức bản ghi (record protocol) của SSL
-link19
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture19.png)
 
 #### Tìm hiểu sâu về giao thức bắt tay
 - **Phase 1:** chọn giải thuật mã hóa như RSA, AES-128, 3DES, RC6, SHA-1… client sẽ khởi tạo với 1 thông điệp hello.
@@ -447,42 +447,42 @@ link19
 - **Cơ chế bảo mật Email**
      + Cho E và D biểu thị 1 giải thuật mã hóa và giải mã khóa đối xứng. Cho E^ và D^  biểu thị một giải thuật mã hóa và giải mã khóa công khai
      + Giả sử Alice muốn chứng minh với Bob là email M mà Bob nhận được là từ Alice gởi, Alice có thể gởi chuỗi sau cho Bob:
-     picture8
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture8.png)
 
      + Với K<sup>u</sup><sub>A</sub> và K<sup>r</sup><sub>A</sub> lần lượt là khóa công khai và khóa riêng tư.
      
      + Sau khi nhận được M II S<sub>M</sub> II CA < K<sup>u</sup><sub>A</sub> > từ Alice, với S<sub>M</sub> là chữ Ký vào M sử dụng khóa riêng tư của Alice. Trước tiên Bob so sánh chữ ký của CA trên chứng chỉ khóa công khai CA ( K<sup>u</sup><sub>A</sub>) và rút trích K<sub>A</sub> từ đó. Sau đó Bob
      rút trích M và so sánh
-     Link9
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture9.png)
 
      + Nếu đúng, Bob tin là M đến từ Alice
 
      + Giả sử Alice muốn đảm bảo rằng M giữ được tính bí mật trong suốt quá trình truyền và cô ấy biết khoá công khai của Bob (K<sup>u</sup><sub>B</sub>), cô ấy sẽ gửi cho Bob chuỗi sau: 
-     Link10
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture1.png10)
 
      + Với K<sub>A</sub> là khóa bí mật của Alice
      + Sau khi nhận được chuỗi từ Alice ,Bob sử dụng khóa riêng tư của mình để giải mã:
-     Link 11
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture11.png)
      + Kế đó Bob dùng (K<sub>A</sub>) để giải mã thu được M: 
-     link 12
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture12.png)
 - **Các chức năng của  PGP:**
-link13
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture13.png)
 
     + **(sơ đồ a)** chỉ chứng thực
     + **(sơ đồ b)** chỉ Bảo mật
     + **(sơ đồ c)** Chứng thực và bảo mật
 
-link14 
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture14.png)
 
 - **Một số Đặc tính của PGP**
-link15
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture15.png)
 
 #### S/MIME
 - Một chuẩn Internet về định dạng cho Email. Hầu như mọi Email trên Internet truyền qua giao thức SMTP theo dạng MIME.
 - S/MIME đưa 2 phương pháp an ninh cho email: mã hóa và chứng thực. Cả 2 đều dựa trên mã hóa bất đối xứng và PKI
 
 - **Sơ đồ Chứng thực chữ kí số:**
-link16
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture16.png)
 
 - **Các tính năng của một Webmail client hộ trợ S/MIME:**
 
@@ -494,7 +494,7 @@ link16
 
 
 ### F. Kerberos
-link6
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture6.png)
 
 #### Tổng quan:
 - Là một giao thức mã hoá dùng để xác thực trong các mạng máy tính hoạt động trên những đường truyền không an toàn.
@@ -503,7 +503,7 @@ link6
 - Xây dựng trên mã hóa đối xứng , cần 1 bên thứ 3 uy tín để làm chung gian.
 - Được phát triển bởi MIT.
 #### Mô tả cách hoạt động:
-link7
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture7.png)
 
 - **Giải thích thuật ngữ:**
     + User: người dùng

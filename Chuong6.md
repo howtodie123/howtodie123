@@ -205,7 +205,7 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
 | Truyền thông với chi nhánh |  -SSL<br>-VPN sử dụng IPsec | -Server chứng thực bởi Server ID<br> - Router/tường lửa chứng thực bởi Ipsec ID<br>- Client chứng thực bởi mật khẩu hoặc SLL 3.0 với Client ID |Ký vào văn bản, S/MIME|
 
 #### Sự Tương Ứng giữa kiến trúc TCP/IP và mô hình OSI:
-link1
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture1.png)
 
 #### Mô hình đóng gói và mã hóa dữ liệu tại các lớp mạng:
 link 2

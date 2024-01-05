@@ -313,7 +313,7 @@ giúp ngăn ngừa các cuộc tấn công bác bỏ.
 
 - **Bài tập nho nhỏ:**
 
-![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture5.png)
+![text thay the](https://raw.githubusercontent.com/howtodie123/howtodie123/readme.io/image6/picture55.png)
 
     + Hãy tìm đường đi từ A đến B và ngược lại
     + User A: X<< W >> W << V >> V << Y >> << Z >> Z << B >>
